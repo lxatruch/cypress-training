@@ -55,11 +55,5 @@ pipeline{
     stage('Deploy'){
       echo "Deploying Application" 
     }
-    //post HTML Report in Jenkins
-    post{
-      always{
-
-      }
-    }
   }
 }
